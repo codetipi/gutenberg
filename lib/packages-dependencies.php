@@ -134,7 +134,7 @@ return array(
 	),
 	'wp-editor'                             => array(
 		'lodash',
-		'wp-tinymce-lists',
+		'wp-tinymce',
 		'wp-a11y',
 		'wp-api-fetch',
 		'wp-blob',
