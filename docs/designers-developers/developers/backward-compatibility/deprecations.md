@@ -37,6 +37,8 @@ The Gutenberg project's deprecation policy is intended to support backward compa
 - The `gutenberg` theme support option has been removed. Use [`align-wide`](https://wordpress.org/gutenberg/handbook/designers-developers/developers/themes/theme-support/#wide-alignment) instead.
 - The PHP function `gutenberg_prepare_blocks_for_js` has been removed. Use [`get_block_editor_server_block_settings`](https://developer.wordpress.org/reference/functions/get_block_editor_server_block_settings/) instead.
 - The PHP function `gutenberg_load_list_reusable_blocks` has been removed.
+- The PHP function `gutenberg_common_scripts_and_styles` has been removed. Use [`wp_common_block_scripts_and_styles`](https://developer.wordpress.org/reference/functions/wp_common_block_scripts_and_styles/) instead.
+- The PHP function `gutenberg_enqueue_registered_block_scripts_and_styles` has been removed. Use [`wp_enqueue_registered_block_scripts_and_styles`](https://developer.wordpress.org/reference/functions/wp_enqueue_registered_block_scripts_and_styles/) instead.
 
 ## 4.5.0
 - `Dropdown.refresh()` has been deprecated as the contained `Popover` is now automatically refreshed.
